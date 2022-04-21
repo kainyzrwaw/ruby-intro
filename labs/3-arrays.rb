@@ -15,3 +15,23 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+bens_list = ["diapers", "wipes", "bath toys", "toilet paper"]
+brians_list = ["beer", "toilet paper", "tacos"]
+puts bens_list.inspect
+
+combined_list = bens_list + brians_list
+puts combined_list.inspect
+
+sorted_list = combined_list.sort
+puts sorted_list.inspect
+
+unique_list = sorted_list.uniq
+puts unique_list.inspect
+
+puts "Buy #{unique_list[0]}"
+puts "Buy #{unique_list[1]}"
+puts "Buy #{unique_list[2]}"
+puts "Buy #{unique_list[3]}"
+puts "Buy #{unique_list[4]}"
+puts "Buy #{unique_list[5]}"
